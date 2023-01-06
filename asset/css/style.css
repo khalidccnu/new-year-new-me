@@ -119,3 +119,79 @@ section:not(#hero) {
 .abt-content span {
     color: #444343;
 }
+
+/* ===== Plan ===== */
+#plan {
+    text-align: center;
+}
+
+#plan .title h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: capitalize;
+}
+
+.plan ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan img {
+    width: 100%;
+    max-width: 92px;
+}
+
+.plan h6 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 24px 0 16px;
+}
+
+.plan span {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+#plan .notice {
+    position: relative;
+    background: url("../img/bg-notice.png") no-repeat center / cover;
+    margin-top: 130px;
+    padding: 65px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#plan .notice .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+#plan .notice .content {
+    position: relative;
+    max-width: 459px;
+}
+
+#plan .notice h5 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    margin: 0 0 24px;
+}
+
+#plan .notice .btn {
+    color: #f15b22;
+    background-color: #fff;
+}
