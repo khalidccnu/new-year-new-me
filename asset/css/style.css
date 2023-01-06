@@ -15,6 +15,10 @@ body {
     color: #151414;
 }
 
+section:not(#hero) {
+    padding: 65px 0;
+}
+
 .container {
     width: 100%;
     max-width: 1141px;
@@ -64,4 +68,54 @@ body {
 .hero .btn {
     color: #fff;
     background-color: #f15b22;
+}
+
+/* ===== About ===== */
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.abt-img {
+    max-width: 569px;
+    margin-right: 87px;
+}
+
+.abt-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.abt-content {
+    max-width: 416px;
+}
+
+.abt-content h5 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0 0 24px;
+}
+
+.abt-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.abt-content ul {
+    font-size: 16px;
+    line-height: 26px;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.abt-content i {
+    color: #16d887;
+}
+
+.abt-content span {
+    color: #444343;
 }
