@@ -197,6 +197,57 @@ section:not(#hero) {
     background-color: #fff;
 }
 
+/* ===== Testimonial ===== */
+#testimonial {
+    text-align: center;
+}
+
+#testimonial .title h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: capitalize;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+}
+
+.tm-1 {
+    margin-right: 10px;
+}
+
+.tm-2 {
+    margin-left: 10px;
+}
+
+.tm-1, .tm-2 {
+    max-width: 416px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15)
+}
+
+.tm-1 p, .tm-2 p {
+    margin-top: 0;
+}
+
+.tm-1 h5, .tm-2 h5 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    margin: 0;
+}
+
+.tm-1 h6, .tm-2 h6 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #332f2f;
+    margin: 0;
+}
+
 /* ===== Footer ===== */
 footer {
     margin-top: auto;
